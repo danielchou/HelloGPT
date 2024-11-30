@@ -1,0 +1,351 @@
+參考網址：https://www.esunbank.com/zh-tw/about/faq/faqlist?tag=deposit
+
+有什麼可以為您服務 熱門分類： 外幣 繳費/稅 貸款 網路銀行 客服 搜尋 「存匯」相關問題 數位帳戶的申辦資格為何？ 帳戶類型
+                    第一類帳戶
+                    第二類帳戶
+                    第三類帳戶
+                
+            
+            
+                
+                    驗證方式
+                    臨櫃驗證
+                    自然人憑證+視訊驗證
+                    自然人憑證
+                    本行網銀 (且簡訊密碼服務需為臨櫃申請)
+                    他行臨櫃帳戶
+                    玉山信用卡(持正卡滿半年)
+                
+                
+                    申辦資格
+                    
+                      
+                        年滿18歲。
+
+                        出生國別為中華民國(臺澎金馬地區)且僅具有中華民國稅務身分。
+
+                      
+                    
+                
+            
+        
+
+
+※ 自然人憑證+視訊驗證：以自然人憑證開立數位帳戶者，可透過行動銀行進行視訊升級。
+
+※ 他行臨櫃帳戶驗證：帳戶必須為臨櫃開立，且須使用他行臨櫃開戶時留存的手機號碼進行驗證。
+
+※ 為遵循防制洗錢相關規定及銀行內部風險考量，本行保留申請線上開戶准駁與否之權利。
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                            
+                                
+                            
+                        
+                            線上開立玉山數位帳戶
+                            完整金融服務都在這，線上開戶一次享有！
+                        
+                    
+                
+            
+            
+                
+                        
+                            線上開戶
+                            
+                        
+                
+            
+        
+    
+
+
+.greenHeadTable tbody td {
+padding: 16px 12px !important;
+text-align: left !important;
+vertical-align: middle !important;
+}
+.greenHeadTable tbody tr td:first-child {
+padding: 16px 10px !important;
+text-align: center !important;
+background-color: #daf1f0 !important;
+vertical-align: middle !important;
+} 存匯 數位帳戶 外來人口換發「新式統一證號」資料變更提醒事項 因應內政部新式外來人口統一證號專案於110年1月2日起實施，將現行統一證號調整為 1碼英文+9碼數字身分證字號格式，若您已申請新式外來人口統一證號，提醒您下列事項：
+In respond to the New UI No. Format for Foreign Nationals policy starting from January 2, 2021 by Ministry of the Interior, the New UI No. will use the same format as National ID, with one letter followed by nine numbers. If you had already applied for the New UI No., please noticed the following:
+ 
+
+
+    內政部移民署全球資訊網已建置「新式外來人口統一證號專區」，相關資訊可於該專區查閱，如有金融諮詢外之相關問題，可請您撥打移民署各服務站電話、「1996內政服務熱線」及「外來人士在臺生活諮詢服務熱線(0800-024-111)」。
+
+    The Ministry of the Interior National Immigration Agency website has built  “New UI No. Format for ForeignNationals“ section for your convenience to search for relevant information. If you have any questions other than financial services, please call National Immigration Agency, 1996 Ministry of the Interior hotline, or Foreigners In Taiwan Hotline(0800-024-111).
+    
+    
+    改號後建議同步更新相關資訊予撥薪雇主、證券公司、公共事業費機關、稅捐機關…等單位，以利該單位更新資訊並順利依您與該單位之約定完成入/扣款項。
+
+    After replacing your UI No., it is recommended to simultaneously provide relevant information to payroll employers, securities companies, public utility companies, tax collection authorities, etc., for them to successfully update your information to complete the deposit/deduct.
+    
+    提醒您，本年度所得稅結算申報時，請您注意申報之統一證號與金融機構留存之證號是否相符，以維護您的權益。
+
+    This year’s income tax settlement and declaration period will expire soon. For your rights, please confirm that your declared UI No. matches the certificate number retained by the financial institution.
+    
+    
+    若您與本行有信用卡、授信業務往來，本行於接獲財團法人金融聯合徵信中心通知後約30日內主動將您的統一證號更新為新式外來人口證號，以確保傳送聯徵中心資料正確性。
+本行新式統一證號更新後將影響個人網路銀行及行動銀行使用，影響如下：
+    If you have credit card or loan business with E.SUN bank, after we received the notice from Joint Credit Information Center, we will automatically replace your previous UI No. into your new UI No. within the next 30 days to ensure the correctness of the information transmitted. The updated UI No. will affect your use in E.SUN Bank’s personal online banking and mobile banking as following: 
+    
+    
+        本行個人網路銀行及行動銀行須以新證號登入，如您有使用網路銀行，資料更新後請透過「語音OTP密碼」、「玉山行動銀行認證」、「金融卡讀卡機+本行金融卡」自行設定使用者名稱及使用者密碼。
+
+        It is required to use the new UI No. to log in E.SUN Bank’s personal online banking and mobile banking. If you use online banking, after the information is updated, please set up your username and password through "Voice OTP Password", "E.SUN Bank’s Mobile Banking Authentication", or "Card Reader + ATM Card".
+        
+        
+        如您有外匯服務需求，敬請您攜帶最新證照正本，至鄰近分行辦理新式外來人口統一證號資料變更事宜，以利外匯申報正確報送。
+
+        If you need any foreign exchange service, in order to submit the foreign exchange declarations correctly, please visit nearby branch with your latest ARC to update the UI No. information.
+    
+    
+    
+    為提供便民服務，本行將自2021年7月22日起開辦郵寄辦理外來人口變更新式統一證號之「統一證號」、「證件號碼」及「證件起迄日」，如您需變更其他基本資料，請多善用網路銀行或洽鄰近分行辦理。
+
+    For your convenience, from July 22, 2021 on, E.SUN Bank will start mailing service of the renewal of “UI No.”, “Certificate No.”, and “Certificate Valid Date” for New UI No. Format for Foreign Nationals. If you need to update other information, please make good use of online baking or go to any nearby branch.
+
+
+若有金融相關問題歡迎致電任一鄰近分行或本行客服專線02-21821313按2按0，我們將竭誠為您服務，感謝您的配合與支持。
+
+If you have any questions related to financial services, please contact any nearby branches, or customer service hotline 02-21821313 and press 2 then press 0, we will serve you wholeheartedly. Thank you for your cooperation.
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            為了節省您寶貴時間，建議您於線上申請 數位帳戶，以免臨櫃久候。
+
+                        
+                    
+                
+            
+            
+                
+                        
+                            
+                            線上開戶 存匯 注意事項 數位帳戶享有哪些優惠？ 玉山數位帳戶提供多項專屬優惠，詳細優惠內容請參考玉山數位帳戶網頁。
+
+    
+        
+            
+                
+                    
+                            
+                                
+                            
+                        
+                            線上開立玉山數位帳戶
+                            完整金融服務都在這，線上開戶一次享有！
+                        
+                    
+                
+            
+            
+                
+                        
+                            線上開戶 存匯 數位帳戶 如何辦理臺幣一般存款帳戶開戶？ 本行個人帳戶臨櫃開戶為預約優先制，將優先服務已預約分行時間之顧客，為節省您的寶貴時間，請先 線上預約開戶，以免臨櫃久候！線上預約步驟請參考預約分行開戶。
+
+
+
+
+    年滿十八歲之成年人
+    本人攜帶身分證正本、第二身分證明文件(如：健保卡、護照、戶籍謄本等)及印鑑至分行臨櫃辦理。
+
+
+
+
+    未滿七歲之未成年人
+    
+    未滿七歲的小朋友不需到場。
+
+    父母雙方共同到場辦理 或 其中一方攜帶無法到場者之 法定代理人同意暨授權同意書 辦理。
+ ※ 攜帶文件：請攜帶父母雙方之身分證正本及未成年人原留印鑑、戶口名簿或戶籍謄本、第二證件：健保卡、兒童手冊等擇一。
+
+    
+
+
+
+    年滿七歲未滿十八歲之未成年人
+    
+    未成年本人可到行：父母雙方陪同未成年人共同到行，若父母其中一方或雙方皆無法到行，請攜帶無法到場者之 法定代理人同意暨授權同意書 辦理。
+
+    未成年本人無法到行：請父母雙方或任一方持未成年人簽署之開戶文件及無法到場者之 法定代理人同意暨授權同意書 到場辦理。
+※ 攜帶文件：請攜帶父母雙方及未成年人之身分證正本及未成年人印鑑與第二證件到場辦理。
+未成年未辦理身分證者，可持戶口名簿或戶籍謄本；第二證件可持健保卡、駕照、學生證等擇一。
+
+    
+
+
+※ 未成年人因工作需要，服務公司配合為本行撥薪，本人攜帶雇主蓋印的在職證明書、身分證正本、第二證件及印鑑到場辦理即可。
+
+※ 未成年人因父母離婚、一方死亡、雙方皆無法行使監護權，由對未成年人有監護權者，攜帶身分證及戶口名簿 /戶籍謄本(記事欄需有監護權判定) 或監護權判決書到場辦理。
+
+※ 台幣帳戶開戶起存金額 1,000 元；外幣帳戶開戶起存金額請參閱 外幣綜合存款。
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            為了節省您寶貴時間，建議您於線上申請 數位帳戶，以免臨櫃久候。
+
+                        
+                    
+                
+            
+            
+                
+                        
+                            
+                            線上開戶 存匯 帳戶 已有本行臨櫃帳戶是否可以再申請數位帳戶？ 可以，數位帳戶開放給本行臨櫃存戶申請，可使用「自然人憑證」、「本行網銀(且簡訊密碼服務需為臨櫃申請)」、「他行臨櫃帳戶」、「玉山信用卡(持正卡滿半年) 」方式驗證，或於完成申請資料填寫後，至分行進行「臨櫃驗證」。
+
+    
+        
+            
+                
+                    
+                            
+                                
+                            
+                        
+                            線上開立玉山數位帳戶
+                            完整金融服務都在這，線上開戶一次享有！
+                        
+                    
+                
+            
+            
+                
+                        
+                            線上開戶 存匯 數位帳戶 分公司如何辦理開戶？ 分公司不具獨立法人資格，所以不得擅自於金融機構開立帳戶，須經總公司出具授權書授權(須使用本行提供之授權書)，始得受理開立新台幣存款戶，但不包括在我國依法認許登記之外國公司在台分公司。
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            為了節省您寶貴時間，建議您於線上申請 數位帳戶，以免臨櫃久候。
+
+                        
+                    
+                
+            
+            
+                
+                        
+                            
+                            線上開戶 存匯 帳戶 申請數位帳戶需準備哪些資料? 需準備：
+
+    電腦/手機
+    驗證方式之工具，如自然人憑證+讀卡機、本行網銀、他行臨櫃帳戶、玉山信用卡正卡且滿半年
+    身分證+第二證件(健保卡/駕照/學生證)
+
+    
+        
+            
+                
+                    
+                            
+                                
+                            
+                        
+                            線上開立玉山數位帳戶
+                            完整金融服務都在這，線上開戶一次享有！
+                        
+                    
+                
+            
+            
+                
+                        
+                            線上開戶 存匯 數位帳戶 存款人亡故，須徵提何種文件以辦理相關繼承事宜？ 存款繼承申請書（含繼承系統表）
+存款證件（如存單、存摺...等）
+可確認為全體合法繼承人之戶籍謄本或戶口名簿（均含記事欄）等相關文件
+遺產稅繳清或免稅證明書（繼承存款金額新臺幣20萬元以下免附時，仍應徵提被繼承人死亡證明文件，如：死亡證明書、除戶近三個月內之戶籍謄本、法院宣告死亡之判決)
+全體繼承人身分證件及印章（若繼承人親自辦理，由其親簽亦可）
+以上文件皆須正本
+
+
+註.小額存款繼承之辦理：小額存款繼承定義為繼承存款總額新臺幣三萬元(含)以下(限台幣及外幣)且為未分割遺產時，得由任一繼承人親自(或依委託他人辦理存款繼承方式)攜帶存款證件、被繼承人之死亡證明文件、辦理繼承之繼承人身分證件及可確認為合法繼承人之文件(如戶籍謄本、戶口名簿等)，並填具「存款/特定金錢信託/黃金存摺繼承申請暨委託書」辦理。
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            為了節省您寶貴時間，建議您於線上申請 數位帳戶，以免臨櫃久候。
+
+                        
+                    
+                
+            
+            
+                
+                        
+                            
+                            線上開戶 存匯 帳戶 每人能申請幾個玉山數位帳戶？ 每人僅能申請兩個玉山臺幣數位帳戶及兩個外幣數位帳戶，及三個臺幣數位證券交割帳戶。
+
+    
+        
+            
+                
+                    
+                            
+                                
+                            
+                        
+                            線上開立玉山數位帳戶
+                            完整金融服務都在這，線上開戶一次享有！
+                        
+                    
+                
+            
+            
+                
+                        
+                            線上開戶 存匯 數位帳戶 沒時間到分行開戶，是否可委託他人辦理？ 為確保您的帳戶安全，開戶仍需本人親自辦理，您可於營業時間攜帶身分證正本、第二證件正本、印鑑親自本行各營業據點辦理。
+
+若您不便親臨分行，可使用線上開戶服務，申請完成後3-7個工作日將完成審核作業。
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            為了節省您寶貴時間，建議您於線上申請 數位帳戶，以免臨櫃久候。
+
+                        
+                    
+                
+            
+            
+                
+                        
+                            
+                            線上開戶 存匯 帳戶 多通路服務 智能客服 訪客留言板 線上申請專區 English Service
