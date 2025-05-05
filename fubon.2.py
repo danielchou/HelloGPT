@@ -3,22 +3,39 @@ import os
 import xml.etree.ElementTree as ET
 import re
 import html
+import html2text
 
-# XML 檔案來源目錄
-SOURCE_DIR = "result/fubon/faq"
-# 輸出根目錄 (與來源相同)
-OUTPUT_DIR = SOURCE_DIR
+# XML 檔案來源目錄 (大寫 Result)
+SOURCE_DIR = "Result/fubon/faq"
+# TXT 輸出目錄 (使用 faq/txt 子目錄)
+TXT_OUTPUT_DIR = os.path.join(SOURCE_DIR, "txt")
+# Markdown 輸出目錄 (使用 faq/md 子目錄)
+MD_OUTPUT_DIR = os.path.join(SOURCE_DIR, "md")
 
 def sanitize_filename(filename):
-    """移除或替換檔名中的無效字元"""
-    # 移除基本無效字元: \ / : * ? " < > |
-    sanitized = re.sub(r'[\\/*?:"<>|]', "", filename)
+    """移除或替換檔名中的無效字元，包括所有標點符號（半形和全形）"""
+    # 定義全形標點符號列表
+    full_width_punctuation = '_，。、；：「」『』【】（）？！～＠＃＄％＾＆＊－＋＝｛｝［］｜＼／＜＞'
+    
+    # 先移除全形標點符號
+    for char in full_width_punctuation:
+        filename = filename.replace(char, '')
+    
+    # 再移除所有半形標點符號和特殊字元
+    sanitized = re.sub(r'[^\w\s]', "", filename)
+    
     # 將多個空格替換為單個底線
-    sanitized = re.sub(r'\s+', '_', sanitized)
-    # 移除檔名開頭和結尾的點和底線
-    sanitized = sanitized.strip('._')
-    # 限制檔名長度 (可選，以防萬一)
-    max_len = 100 
+    sanitized = re.sub(r'\s+', '', sanitized)
+    
+    # 移除檔名開頭和結尾的底線
+    sanitized = sanitized.strip('_')
+    
+    # 確保檔名不為空
+    if not sanitized:
+        return "untitled"
+    
+    # 限制檔名長度為 30 個字元
+    max_len = 500
     return sanitized[:max_len] if len(sanitized) > max_len else sanitized
 
 def clean_html(raw_html):
@@ -31,6 +48,25 @@ def clean_html(raw_html):
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()
     return clean_text
 
+def html_to_markdown(html_content, title):
+    """將 HTML 內容轉換為完整的 Markdown 格式"""
+    # 使用 html2text 套件將 HTML 轉換為 Markdown
+    h = html2text.HTML2Text()
+    h.ignore_links = False  # 保留連結
+    h.ignore_images = False  # 保留圖片
+    h.ignore_tables = False  # 保留表格
+    h.body_width = 0  # 不自動換行
+    h.unicode_snob = True  # 使用 Unicode 字元
+    h.skip_internal_links = False  # 不跳過內部連結
+    
+    # 轉換 HTML 內容
+    markdown_body = h.handle(html_content)
+    
+    # 建立 Markdown 內容，加上標題
+    markdown_content = f"# {title}\n\n{markdown_body}"
+    
+    return markdown_content
+
 def process_xml_file(xml_filepath):
     """處理單個 XML 檔案"""
     try:
@@ -40,9 +76,18 @@ def process_xml_file(xml_filepath):
 
         # 建立輸出目錄 (以 XML 檔名命名，不含副檔名)
         base_filename = os.path.splitext(os.path.basename(xml_filepath))[0]
-        output_subdir = os.path.join(OUTPUT_DIR, base_filename)
-        os.makedirs(output_subdir, exist_ok=True)
-        print(f"處理中: {xml_filepath} -> 輸出至目錄: {output_subdir}")
+        
+        # TXT 輸出目錄
+        txt_output_subdir = os.path.join(TXT_OUTPUT_DIR, base_filename)
+        os.makedirs(txt_output_subdir, exist_ok=True)
+        
+        # Markdown 輸出目錄
+        md_output_subdir = os.path.join(MD_OUTPUT_DIR, base_filename)
+        os.makedirs(md_output_subdir, exist_ok=True)
+        
+        print(f"處理中: {xml_filepath}")
+        print(f"-> TXT 輸出至目錄: {txt_output_subdir}")
+        print(f"-> MD 輸出至目錄: {md_output_subdir}")
 
         items_processed = 0
         # 遍歷所有 <item> 元素 (假設 item 在根目錄下或常見的 channel/item 結構)
@@ -79,17 +124,29 @@ def process_xml_file(xml_filepath):
                 if not safe_filename: # 如果清理後檔名為空，給一個預設值
                     safe_filename = f"item_{items_processed + 1}"
                 
-                output_txt_path = os.path.join(output_subdir, f"{safe_filename}.txt")
+                # TXT 檔案路徑
+                output_txt_path = os.path.join(txt_output_subdir, f"{safe_filename}.txt")
+                
+                # Markdown 檔案路徑
+                output_md_path = os.path.join(md_output_subdir, f"{safe_filename}.md")
+                
+                # 建立 Markdown 內容
+                markdown_content = html_to_markdown(description, title)
 
-                # 寫入 TXT 檔案
                 try:
+                    # 寫入 TXT 檔案 (原有功能)
                     with open(output_txt_path, 'w', encoding='utf-8') as f:
                         f.write(cleaned_description)
+                        
+                    # 寫入 Markdown 檔案 (新增功能)
+                    with open(output_md_path, 'w', encoding='utf-8') as f:
+                        f.write(markdown_content)
+                        
                     items_processed += 1
                 except OSError as e:
-                    print(f"錯誤: 無法寫入檔案 {output_txt_path}: {e}")
+                    print(f"錯誤: 無法寫入檔案: {e}")
                 except Exception as e:
-                     print(f"寫入檔案時發生未知錯誤 {output_txt_path}: {e}")
+                     print(f"寫入檔案時發生未知錯誤: {e}")
 
 
             else:
@@ -107,6 +164,13 @@ def process_xml_file(xml_filepath):
 def main():
     """主函數，查找並處理所有 XML 檔案"""
     print(f"開始處理 {SOURCE_DIR} 中的 XML 檔案...")
+    
+    # 確保 TXT 和 Markdown 輸出目錄存在
+    os.makedirs(TXT_OUTPUT_DIR, exist_ok=True)
+    os.makedirs(MD_OUTPUT_DIR, exist_ok=True)
+    print(f"XML 來源目錄: {SOURCE_DIR}")
+    print(f"TXT 輸出目錄: {TXT_OUTPUT_DIR}")
+    print(f"Markdown 輸出目錄: {MD_OUTPUT_DIR}")
     
     xml_files_found = 0
     for filename in os.listdir(SOURCE_DIR):
